@@ -1,0 +1,180 @@
+<!doctype.html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bafta.com</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+		<div class="nav">
+			<label id="logo">katula digsn</label><br>
+			<ul id="top-left-nav">
+				<li><a href="Home.html" id="active">Home</a></li>
+				<li><a href="Product.html">Product</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				
+			</ul>
+			<ul id="top-right-nav">
+				<li><a href="Login.html">Login</a></li>
+				<li><a href="signup.html">Sign up</a></li>
+			</ul>
+		</div>
+		<div class="main content">
+			
+		</div>
+		<div class="footer">
+			<div class="footer1"><br>
+				<br><h2><p>Today's news!</p></h2>
+		<p>Welcome to our online store, BAFTA, where we bring you unique and fashionable clothing for women. If you're looking for trendy handbags, cool shoes, trendy pants, cute skirts, or quality shirts, you've come to the right place!</p>
+				<br><h3>We Have These Things: </h3>
+				<label>Click below to find the latest items in the market</label>
+		
+			</div>
+		</div>
+		
+		<br><!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Slideshow CSS */
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .mySlides {
+            display: none;
+            position: absolute;
+            width: 100%;
+        }
+
+        .mySlides img {
+            width: 100%;
+            height: auto;
+        }
+
+        .text {
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: center;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        .dot-container {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+       <!-- Slideshow -->
+        <section class="slideshow-container">
+            <div class="mySlides">
+                <img src="slide1.jpeg" alt="Slideshow Image 1">
+                <div class="text">Best Products for Your Style</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="slide2.jpeg" alt="Slideshow Image 2">
+                <div class="text">Get Exclusive Ads</div>
+            </div>
+            <div class="mySlides">
+                <img src="slide3.jpeg" alt="Slideshow Image 3">
+                <div class="text">Fashion Bags and Shoes</div>
+            </div>
+
+            <div class="dot-container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+       <!-- Product Promotions -->
+        <section class="promotions">
+            <h2>Latest Ads</h2>
+            <div class="promotions-item">
+                <img src="duka.jpeg" alt="Promotions ">
+                <div class="promotion-info">
+                    <h3>Bag Ads</h3>
+                    <p>Availability of high fashion handbags at affordable prices. Get a special offer today!</p>
+                </div>
+            </div>
+
+            <div class="promotion-item">
+                <img src="promotions.jpeg" alt="Promotions 2">
+                <div class="promotion-info">
+                    <h3>Modern Shoes</h3>
+                    <p>Latest fashion shoes are available now. Visit our store for more details.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Important Information -->
+        <section class="important-info">
+            <h2>Important Information</h2>
+            <p>At BAFTA, we pride ourselves on providing the highest quality products to our customers. Visit our online store for new products and special offers. We offer fast shipping and friendly customer support.</p>
+        </section>
+    </main>
+
+
+    <script>
+        // Slideshow Script
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000); // Change slide every 3 seconds
+        }
+    </script>
+</body>
+</html>
+
+	
+	</body>
+	</html>
